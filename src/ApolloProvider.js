@@ -9,7 +9,7 @@ import { setContext } from 'apollo-link-context';
 import App from './App';
 
 const httpLink = createHttpLink({
-  uri: 'http://localhost:5000',
+  uri: 'https://warm-beyond-56105.herokuapp.com/',
 });
 
 // Automatically add Authorization header if there's a token
